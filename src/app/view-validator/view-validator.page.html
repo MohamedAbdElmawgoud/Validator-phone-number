@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <table class="table table-dark">
+
+    <tbody>
+      <tr>
+        <th scope="row">valid</th>
+        <td *ngIf="valid">
+          <ion-icon class="valid" name="checkmark-circle"></ion-icon>
+        </td>
+        <td *ngIf="!valid">
+          <ion-icon class="notvalid" name="close-circle"></ion-icon>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">carrier</th>
+        <td>{{carrier}}</td>
+
+      </tr>
+
+      <tr>
+        <th scope="row">your phone number</th>
+        <td>{{number}}</td>
+
+      </tr>
+      <tr>
+        <th scope="row">country name</th>
+        <td>{{country_name}}</td>
+
+      </tr>
+      <tr>
+        <th scope="row">location</th>
+        <td>{{location}}</td>
+
+      </tr>
+      <tr>
+        <th scope="row">international format</th>
+        <td>{{international_format}}</td>
+
+      </tr>
+
+      <tr>
+        <th scope="row">local format</th>
+        <td>{{local_format}}</td>
+
+      </tr>
+      <tr>
+        <th scope="row">line type</th>
+        <td>{{line_type}}</td>
+
+      </tr>
+
+      <tr>
+        <th scope="row">country prefix</th>
+        <td>{{country_prefix}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+</ion-content>

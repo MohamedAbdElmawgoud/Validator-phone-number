@@ -1,0 +1,24 @@
+
+ion-content{
+    --background: #f7f7f7
+  }
+ion-toolbar{
+    --background: #0D5D98
+}
+table{    
+
+    background: #0D64A4
+}
+th{
+    text-transform: capitalize;
+    font-style: bold;
+}
+.valid{
+    color: #10DD10;
+    font-size: 25px
+}
+.notvalid{
+    color: red;
+    font-size: 25px
+    
+}
